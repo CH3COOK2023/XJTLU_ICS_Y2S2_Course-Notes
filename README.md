@@ -35,7 +35,10 @@ Welcome to our repository! The content of this repository is the summary of cour
 │
 ├─课程编号（目录下直接存放课程笔记）
 │    ├─课程往年试卷
+│    │    └─试做答案
 │    ├─课程作业
+│    │    └─作业年份
+│    ├─期末复习
 │    │    └─作业年份
 │    └─你认为有必要新建的文件夹（如专题等）
 │
@@ -61,6 +64,9 @@ Welcome to our repository! The content of this repository is the summary of cour
 或
 <学年><课程名><周数(两位)>_<文件名><主版本号.子版本号[.修正版本号]>
 23INT104W00_课程信息与时间线v0.2
+
+对于以上内容，如果您认为有必要署名，可以在文件名最后加上@自己名字
+23INT104W00_课程信息与时间线@pepsi
 ```
 
 ## 如何贡献
