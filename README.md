@@ -35,7 +35,7 @@ Welcome to our repository! The content of this repository is the summary of cour
 ...
 │
 ├─课程编号（目录下直接存放课程笔记）
-│    ├─课程往年试卷
+│    ├─往年试卷
 │    │    └─试做答案
 │    ├─课程作业
 │    │    └─作业年份
