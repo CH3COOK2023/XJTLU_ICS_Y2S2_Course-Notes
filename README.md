@@ -39,7 +39,7 @@ Welcome to our repository! The content of this repository is the summary of cour
 │    ├─课程作业
 │    │    └─作业年份
 │    ├─期末复习
-│    │    └─作业年份
+│    │    └─年份
 │    └─你认为有必要新建的文件夹（如专题等）
 │
 ...
