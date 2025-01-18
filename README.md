@@ -1,12 +1,12 @@
-# XJTLU_ICS_Y2S2_Course-notes_23-24
+# XJTLU_ICS_Y2S2_Course-Notes
 Ciallo～(∠・ω< )⌒★!
 
-欢迎来到本仓库~本仓库的内容是23-24学年西交利物浦大学信息与计算科学（ICS）专业大二第二学期课程笔记的汇总。
+欢迎来到本仓库~本仓库的内容是西交利物浦大学信息与计算科学（ICS）专业大二第二学期课程的笔记汇总，起始自23-24学年。
 
-Welcome to our repository! The content of this repository is the summary of course notes for the second semester of Information and Computing Science (ICS) Sophomores at XJTLU in the 23-24 academic year.
+Welcome to our repository! The content of this repository is the summary of course notes for the second semester of Information and Computing Science (ICS) Sophomores at XJTLU starting from the 23-24 academic year.
 
 ## 建立本仓库的目的
-为促进学习小组更方便地分享管理所学课程的笔记、心得，本仓库被建立为公用的，可被大家提交的合作学习平台，如果您也想分享自己的学习资料，请照如下规范上传，还请大家多多参与捏。
+为促进ICS学习社群更方便地分享所学课程的笔记、心得，本仓库被建立为公用的，可被大家提交的合作学习平台，如果您也想分享自己的学习资料，请照如下规范上传，还请大家多多参与捏。
 
 ## 涵盖课程
 
@@ -15,6 +15,7 @@ Welcome to our repository! The content of this repository is the summary of cour
 3. **EAP111 - English Language and Study Skills for Advanced Technology**
 4. **INT102 - Algorithmic Foundations and Problem Solving**
 5. **INT104 - Artificial Intelligence**
+6. **!Extra - 您可以存放任何您觉得有帮助或者有意思的内容**
 
 ## 目标
 
@@ -27,25 +28,39 @@ Welcome to our repository! The content of this repository is the summary of cour
 - **习题试卷**：除了来自图书馆的往年试题，成员将收集与当前学习内容相适应或拓展的练习内容帮助组员巩固所学知识，并将知识与实践结合。
 - **互助答疑**：通过讨论、解答疑问和相互支持，确保每个成员都能够取得最好的学习效果。
 
-## 文件目录（目前）
+## 文件目录
 
 ```markdown
-|------ 课程编号
-    |------ 课程笔记（存放本课程负责人的课程笔记）
-                |------ 非本课程负责人的课程笔记
-    |------ 重点纪要
-    |------ 习题试卷
+...
+│
+├─课程编号（目录下直接存放课程笔记）
+│    ├─课程往年试卷
+│    ├─课程作业
+│    │    └─作业年份
+│    └─你认为有必要新建的文件夹（如专题等）
+│
+...
 自述文件
 仓库许可证
 重要节点时间表
 ```
 
-如果您想直接对某一门课做出贡献，您可以直接在对应课程的文件夹下新建自己的文件夹，命名为<课程名>\[可选<_内容名>\]@<你的名字>，并在此文件夹中放入自己的内容。
+ **文件命名规范**
+```bash
+对课程笔记等适合以周为粒度分类的文件可以使用周命名
+<学年><课程名><周数(两位补零)>_<文件名>
+23INT104W00_课程信息与时间线
 
-```markdown
-|------ INT104
-        |------ 课程笔记
-                    |------ INT104_课程笔记@Lihua（在这个目录下存放你的内容）
+对不适合以周命名的文件、纪要或杂项可以使用日期命名
+<学年><课程名>_<创建日期><文件名>
+23INT104_240310课程信息与时间线
+
+如果文件经过值得注意的改动，可以在文件名后跟版本号（GNU风格），并烦请附上简要的更新说明
+<学年><课程名>_<创建日期><文件名><主版本号.子版本号[.修正版本号]>
+23INT104_240310课程信息与时间线v0.2
+或
+<学年><课程名><周数(两位)>_<文件名><主版本号.子版本号[.修正版本号]>
+23INT104W00_课程信息与时间线v0.2
 ```
 
 ## 如何贡献
@@ -58,7 +73,7 @@ https://edu.csdn.net/skill/git/git-62c30f9c31f64a1d96af732c47c93f04?category=141
 
 1. **创作笔记**：按照自己的进度整理每门课程的笔记。
 2. **Pull Request**：将你的笔记提交为一个 Pull Request，以便其他人可以查看和提出建议。
-3. **讨论**：在 Issues 中分享你的疑问、建议或者想法，与社群成员一起讨论。
+3. **讨论**：在 **Issues** 中分享你的疑问、建议或者想法；在 **Discussion** 中与社群成员一起讨论。
 
 ## 推送规范
 
@@ -80,25 +95,7 @@ branch@<名字>
 branch@LiHua
 ```
 
- **文件命名规范（待定）**
-```bash
-对课程笔记等适合以周为粒度分类的文件可以使用周命名
-<课程名><周数(两位)>_<文件名>
-INT104W00_课程信息与时间线
-
-对不适合以周命名的文件、纪要或杂项可以使用日期命名
-<课程名>_<创建日期><文件名>
-INT104_240310课程信息与时间线
-
-如果文件经过值得注意的改动，可以在文件名后跟版本号（GNU风格），并烦请附上简要的更新说明
-<课程名>_<创建日期><文件名><主版本号.子版本号[.修正版本号]>
-INT104_240310课程信息与时间线v0.2
-或
-<课程名><周数(两位)>_<文件名><主版本号.子版本号[.修正版本号]>
-INT104W00_课程信息与时间线v0.2
-```
-
-进入你所在课程的目录，推送你产出的文件，确保你的推送消息（commit message）清晰地描述了你的更改，具体参考提交规范（自己百度）。
+进入你所在课程的目录，推送你产出的文件，确保你的推送消息（commit message）清晰地描述了你的更改，具体参考提交规范（请自行百度）。
 
 ```bash
 git add .
